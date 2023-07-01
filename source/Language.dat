@@ -1,0 +1,577 @@
+; *** HPUserEdit support file for multiple languages ***
+;
+; Note: can translate this file freely. Not modify the strings "%s", "|" and "&"
+; that represent arguments for HPUserEdit
+;
+; Identification: Language.dat 02/01/2004
+;
+; Original by Roger Broncano Reyes
+; e-mail: rogerbroncano@hotmail.com
+;
+
+[LangOptions]
+
+; *** Language options
+
+LanguageName=Español
+LanguageStatus=Original de
+LanguageTranslator=Roger Broncano Reyes
+LanguageTranslatorEMail=rogerbroncano@hotmail.com
+
+[Menus]
+
+; *** Text of menu items
+
+MenuFile=Archivo
+MenuFileNew=Nuevo
+MenuFileNewTip=Nuevo|Crea un objeto nuevo
+MenuFileOpen=Abrir...
+MenuFileOpenTip=Abrir|Abre un objeto existente
+MenuFileClose=Cerrar
+MenuFileCloseTip=Cerrar|Cierra el objeto actual
+MenuFileCloseAll=Cerrar todo
+MenuFileCloseAllTip=Cerrar todo|Cierra todos los objetos
+MenuFileSave=Guardar
+MenuFileSaveTip=Guardar|Guarda el objeto actual
+MenuFileSaveAs=Guardar como...
+MenuFileSaveAsTip=Guardar como|Guarda el objeto actual con otro nombre
+MenuFileImport=Importar...
+MenuFileImportTip=Importar|Importa un archivo binario HP como un objeto nuevo
+MenuFileExport=Exportar...
+MenuFileExportTip=Exportar|Exporta el objeto actual a un archivo binario HP
+MenuFileSendToHP=Enviar a la calculadora...
+MenuFileSendToHPTip=Enviar a HP|Envia el objeto actual a la calculadora HP
+MenuFilePrint=Imprimir...
+MenuFilePrintTip=Imprimir|Imprime el objeto actual usando la configuración existente
+MenuFilePreview=Vista previa...
+MenuFilePreviewTip=Vista previa|Muestra una vista preliminar del objeto a diferentes escalas
+MenuFilePageSetup=Configurar página...
+MenuFilePageSetupTip=Configurar página|Cambia la configuración de página impresa para los objetos
+MenuFileExit=Salir
+MenuFileExitTip=Salir|Sale de la aplicación y pregunta si desea guardar sus objetos
+
+MenuEdit=Edición
+MenuEditUndo=Deshacer
+MenuEditUndoTip=Deshacer|Deshace la última acción
+MenuEditRedo=Rehacer
+MenuEditRedoTip=Rehacer|Rehace la acción previamente desecha
+MenuEditCut=Cortar
+MenuEditCutTip=Cortar|Corta la selección de texto al portapapeles
+MenuEditCopy=Copiar
+MenuEditCopyTip=Copiar|Copia la selección de texto al portapapeles
+MenuEditPaste=Pegar
+MenuEditPasteTip=Pegar|Inserta el contenido del portapapeles
+MenuEditSelectAll=Seleccionar todo
+MenuEditSelectAllTip=Seleccionar todo|Selecciona el objeto completo
+
+MenuSearch=Búsqueda
+MenuSearchFind=Buscar...
+MenuSearchFindTip=Buscar|Busca un texto específico en el documento actual
+MenuSearchFindNext=Buscar siguiente
+MenuSearchFindNextTip=Buscar siguiente|Busca la siguiente ocurrencia del texto
+MenuSearchFindPrevious=Buscar anterior
+MenuSearchFindPreviousTip=Buscar anterior|Busca la anterior coincidencia del texto
+MenuSearchReplace=Reemplazar...
+MenuSearchReplaceTip=Reemplazar|Reemplazar las ocurrencias del texto buscado en el documento actual
+MenuSearchGoToLine=Ir a la línea...
+MenuSearchGoToLineTip=Ir a|Permite ir a una línea específica
+
+MenuView=Ver
+MenuViewToolBar=Barra de herramientas estándar
+MenuViewToolBarTip=Barra de Herramientas|Muestra u oculta la barra de herramientas estándar
+MenuViewInsertObjectsBar=Barra se inserción de objetos
+MenuViewInsertObjectsBarTip=Barra de Objetos|Muestra u oculta la barra de inserción de objetos
+MenuViewCommandsBar=Ventana de comandos
+MenuViewCommandsBarTip=Comandos|Muestra u oculta la ventana de comandos
+MenuViewSymbolsBar=Ventana de caracteres
+MenuViewSymbolsBarTip=Caracteres|Muestra u oculta la ventana de caracteres
+MenuViewStatusBar=Barra de estado
+MenuViewStatusBarTip=Barra de Estado|Muestra u oculta la barra de estado
+MenuViewNumberLine=Números de línea
+MenuViewNumberLineTip=Números de línea|Muestra u oculta los números de línea
+
+MenuInsert=Insertar
+MenuInsertProgram=Programa
+MenuInsertProgramTip=Programa|Inserta los delimitadores de un programa
+MenuInsertString=Cadena de caracteres
+MenuInsertStringTip=Cadena de caracteres|Inserta los delimitadores de una cadena de caracteres
+MenuInsertEquation=Objeto algebraico
+MenuInsertEquationTip=Objeto algebraico|Inserta los delimitadores de un objeto algebraico
+MenuInsertList=Lista
+MenuInsertListTip=Lista|Inserta los delimitadores de una lista
+MenuInsertMatrix=Matriz
+MenuInsertMatrixTip=Matriz|Inserta los delimitadores de una matriz
+MenuInsertComplex=Número complejo
+MenuInsertComplexTip=Número complejo|Inserta los delimitadores de un número complejo
+MenuInsertIf=IF..THEN...END
+MenuInsertIfTip=Estructura IF|Inserta la estructura IF...THEN...END
+MenuInsertCase=CASE...THEN...END...END
+MenuInsertCaseTip=Estructura CASE|Inserta la estructura CASE...THEN...END...END
+MenuInsertStart=START...NEXT
+MenuInsertStartTip=Estructura START|Inserta la estructura START...NEXT
+MenuInsertFor=FOR...NEXT
+MenuInsertForTip=Estructura FOR|Inserta la estructura FOR...NEXT
+MenuInsertDo=DO...UNTIL...END
+MenuInsertDoTip=Estructura DO|Inserta la estructura DO...UNTIL...END
+MenuInsertWhile=WHILE...REPEAT...END
+MenuInsertWhileTip=Estructura WHILE|Inserta la estructura WHILE...REPEAT...END
+
+MenuEmu=Emulador
+MenuEmuRun=Iniciar emulador
+MenuEmuRunTip=EMU48|Abre el emulador
+MenuEmuSend=Enviar al emulador...
+MenuEmuSendTip=Enviar a EMU48|Envía el objeto actual al emulador
+MenuEmuProgramRun=Ejecutar programa
+MenuEmuProgramRunTip=Ejecutar|Ejecuta el programa actual en el emulador
+MenuEmuProgramParam=Parámetros...
+MenuEmuProgramParamTip=Parámetros|Establece los parámetros para la ejecución del programa en el emulador
+MenuEmuProgramStep=Ejecutar programa paso a paso
+MenuEmuProgramStepTip=Paso a paso|Ejecuta paso a paso el programa actual en el emulador
+MenuEmuProgramBreak=Alternar punto de interrupción
+MenuEmuProgramBreakTip=Punto de interrupción|Alterna un punto de interrupción para el programa
+MenuEmuClearBreak=Borrar punto de interrupción
+MenuEmuClearBreakTip=Borrar punto de interrupción|Borra el punto de interrupción establecido para el programa
+
+MenuTools=Herramientas
+MenuToolsMatrixWriter=Editor de matrices...
+MenuToolsMatrixWriterTip=Editor de matrices|Ejecuta el editor de matrices de HPUserEdit
+MenuToolsInput=Cuadros de entrada...
+MenuToolsInputTip=INPUT|Inserta la estructura del comando INPUT personalizado
+MenuToolsChoose=Cuadros de selección...
+MenuToolsChooseTip=CHOOSE|Inserta la estructura del comando CHOOSE personalizado
+MenuToolsInform=Cuadros de diálogo...
+MenuToolsInformTip=INFORM|Inserta la estructura del comando INFORM personalizado
+MenuToolsGrob=Importar objeto gráfico...
+MenuToolsGrobTip=Importar gráfico|Importa un objeto gráfico creado por el usuario
+
+MenuOptions=Opciones
+MenuOptionsEnvironment=Configurar el entorno...
+MenuConfigEvironmentTip=Configurar el entorno|Configura las opciones del entorno
+MenuOptionsEditor=Configurar el editor...
+MenuConfigEditorTip=Configurar el editor|Configura las opciones del editor
+
+MenuHelp=Ayuda
+MenuHelpIndex=Contenido
+MenuHelpIndexTip=Ayuda|Lista el contenido de la ayuda de HP UserEdit
+MenuHelpFaq=Preguntas frecuentes
+MenuHelpFaqTip=Preguntas frecuentes|Ofrece respuestas a consultas frecuentes
+MenuHelpWeb=HPUserEdit en la Web
+MenuHelpWebTip=HPUserEdit Web|Abre el sitio Web de HPUserEdit
+MenuHelpTipOfDay=Sugerencia del día
+MenuHelpTipDayTip=Sugerencia|Muestra el cuadro de sugerencias del día
+MenuHelpAbout=Acerca de...
+MenuHelpAboutTip=Acerca de|Información del programa, versión, colaboraciones y derechos de autor
+MenuHelpWhatThisIs=¿Qué es esto?
+MenuHelpWhatThisIsTip=Ayuda|Muestra ayuda de los botones, menús y ventanas pulsados
+
+[MainProgram]
+
+; *** Texts of main programa window
+
+MenusBarTitle=Barra de menús
+ToolBarTitle=Barra de herramientas estándar
+InsertBarTitle=Barra de herramientas adicionales
+CommandsWindowTitle=Comandos
+CommandsWindowHint=Doble clic para insertar comando
+SymbolsWindowTitle=Caracteres
+SymbolsWindowHint=Doble clic para insertar caracter
+ToolBarChevronHint=Más botones|
+
+[ChooseDialog]
+
+; *** Texts of choose dialog box
+
+DlgChooseTitle=Cuadro de selección
+DlgChooseHeaderTitle=CHOOSE
+DlgChooseHeaderDescription=Ingrese los parámetros para este comando. La imagen es solamente referencial.
+DlgChooseLabelTitle=Título:
+DlgChooseLabelPosition=Posición inicial:
+DlgChooseLabelList=Lista
+DlgChooseObjectsShow=Objeto mostrado
+DlgChooseObjectsReturn=Objeto devuelto
+DlgChooseOk=Insertar
+DlgChooseCancel=Cancelar
+
+[ConfirmDialog]
+
+; *** Texts of confirm dialog box
+
+DlgConfirmTitle=Confirmar reemplazo
+DlgConfirmReplace=Si
+DlgConfirmSkip=No
+DlgConfirmCancel=Cancelar
+DlgConfirmReplaceAll=Si a todo
+
+[ConfigEditorDialog]
+
+; *** Texts of config editor dialog box
+
+DlgConfigEditorTitle=Configurar editor
+DlgConfigEditorGeneral=General
+DlgConfigEditorEditorOptions=Opciones del editor
+DlgConfigEditorAutoIndent=Sangría automática
+DlgConfigEditorInsertMode=Modo Insertar
+DlgConfigEditorTabsToSpaces=Usar espacios como tabulador
+DlgConfigEditorSmartTabs=Tabulador pequeño
+DlgConfigEditorHideSelection=Ocultar selección
+DlgConfigEditorUndoAfterSave=Permitir deshacer al guardar
+DlgConfigEditorTrimTrailingSpaces=Recortar espacios en blanco
+DlgConfigEditorDragDropEditing=Permitir arrastrar en el editor
+DlgConfigEditorAltSetsColumnMode=Seleccionar columnas con [Alt]
+DlgConfigEditorUseHighlighter=Usar resaltador
+DlgConfigEditorExtraLineSpacing=Espaciado entre líneas:
+DlgConfigEditorUndoLimits=Límite para deshacer:
+DlgConfigEditorTabWidth=Tamaño del tabulador:
+DlgConfigEditorDisplay=Visualización
+DlgConfigEditorFileOptions=Opciones de archivo
+DlgConfigEditorCreateBackup=Crear copia de seguridad
+DlgConfigEditorLineEndFormat=Usar formato HP para fín de línea
+DlgConfigEditorMagins=Márgenes
+DlgConfigEditorVisibleMargin=Ver margen derecho
+DlgConfigEditorVisibleGutter=Ver margen izquierdo
+DlgConfigEditorMarginSize=Margen derecho:
+DlgConfigEditorGutterSize=Margen izquierdo:
+DlgConfigEditorFontName=Fuente:
+DlgConfigEditorFontSize=Tamaño:
+DlgConfigEditorFontExample=Ejemplo:
+DlgConfigEditorColors=Colores
+DlgConfigEditorElements=Elementos:
+DlgConfigEditorSpaces=Espacios
+DlgConfigEditorCommands=Comandos
+DlgConfigEditorSymbols=Símbolos
+DlgConfigEditorAlgebraics=Objetos algebraicos
+DlgConfigEditorNumbers=Números
+DlgConfigEditorText=Texto
+DlgConfigEditorForegroundColor=Color de primer plano:
+DlgConfigEditorBackgroundColor=Color de fondo:
+DlgConfigEditorTextAttributes=Atributos de texto:
+DlgConfigEditorTextBold=Negrita
+DlgConfigEditorTextItalic=Cursiva
+DlgConfigEditorTextUnderline=Subrayado
+DlgConfigEditorOk=Aceptar
+DlgConfigEditorCancel=Cancelar
+
+[ConfigEnvironmentDialog]
+
+; *** Texts of config environment dialog box
+
+DlgEnvironmentTitle=Configuración del entorno
+DlgEnvironmentGeneral=General
+DlgEnvironmentEnvironment=Entorno
+DlgEnvironmentMultiInstances=Permitir multiples instancias del programa
+DlgEnvironmentLogoAtStartup=Mostrar el logo al iniciar el programa
+DlgEnvironmentStayOnTop=Mostrarse por encima de las otras ventanas
+DlgEnvironmentNewOnStartup=Iniciar con un archivo de objeto en blanco
+DlgEnvironmentShortCut=Incluir accesos directos en
+DlgEnvironmentShortCutDesktop=Escritorio
+DlgEnvironmentShortCutSendTo=Menú Enviar A
+DlgEnvironmentShortCutContextMenu=Menú contextual
+DlgEnvironmentShortCutQuickLaunch=Barra de inicio rápido
+DlgEnvironmentAssociateFile=Asociar archivos
+DlgEnvironmentEmulator=Emulador
+DlgEnvironmentEmulatorFiles=Archivos para el emulador
+DlgEnvironmentEmu48FileName=Emu48 Ram:
+DlgEnvironmentEmu48FileNameDialogTitle=Mostrar
+DlgEnvironmentEmu48FileNameDialogFilter=Archivos Ram para Emu48|*.e48|Todos los archivos|*.*
+DlgEnvironmentEmu48PortFileName=Emu48 Port2:
+DlgEnvironmentEmu48PortFileNameDialogTitle=Mostrar
+DlgEnvironmentEmu48PortFileNameDialogFilter=Archivos Port2 para Emu48|*.bin|Todos los archivos|*.*
+DlgEnvironmentEmu49FileName=Emu49 Ram:
+DlgEnvironmentEmu49FileNameDialogTitle=Mostrar
+DlgEnvironmentEmu49FileNameDialogFilter=Archivos Ram para Emu49|*.e49|Todos los archivos|*.*
+DlgEnvironmentDefaultEmu=Compatibilidad entre el editor y el emulador
+DlgEnvironmentDefaultEmuHP48=Para la calculadora HP48
+DlgEnvironmentDefaultEmuHP49=Para la calculadora HP49
+DlgEnvironmentComunication=Comunicación
+DlgEnvironmentObjects=Objetos
+DlgEnvironmentObjectNameCapital=Nombres solo en mayúsculas
+DlgEnvironmentObjectNameExtension=Quitar la extensión de los nombres
+DlgEnvironmentSendPort=Puerto
+DlgEnvironmentKermit=Kermit
+DlgEnvironmentSendSpeed=Velocidad:
+DlgEnvironmentSendChecksum=Comprobación:
+DlgEnvironmentSendChecksumType1=Tipo 1
+DlgEnvironmentSendChecksumType2=Tipo 2
+DlgEnvironmentSendChecksumType3=Tipo 3
+DlgEnvironmentSendRetry=Intentos:
+DlgEnvironmentEnableBeep=Permitir alertas sonoras
+DlgEnvironmentOk=Aceptar
+DlgEnvironmentCancel=Cancelar
+
+[GotoDialog]
+
+; *** Texts of go to dialog box
+
+DlgGotoTitle=Ir a la Línea
+DlgGotoLine=Ir a la línea:
+DlgGotoOk=Aceptar
+DlgGotoCancel=Cancelar
+
+[InformDialog]
+
+; *** Texts of inform dialog box
+
+DlgInformTitle=Cuadro de diálogo
+DlgInformHeaderTitle=INFORM
+DlgInformHeaderDescription=Ingrese los parámetros para este comando. La imagen es solamente referencial.
+DlgInformLabelTitle=Título:
+DlgInformFormat=Formato
+DlgInformLabelColumns=Columnas:
+DlgInformWidth=Ancho
+DlgInformFieldTitle=Campos
+DlgInformFieldName=Nombre
+DlgInformFieldHelp=Texto de ayuda
+DlgInformFieldObject=Tipo de objetos
+DlgInformFieldReset=Reconfiguración
+DlgInformFieldDefault=Por defecto
+DlgInformOk=Insertar
+DlgInformCancel=Cancelar
+
+[InputDialog]
+
+; *** Texts of input dialog box
+
+DlgInputTitle=Cuadro de entrada
+DlgInputHeaderTitle=INPUT
+DlgInputHeaderDescription=Ingrese los parámetros para este comando. La imagen es solamente referencial.
+DlgInputMessage=Mensaje:
+DlgInputCommandLine=Línea de comandos:
+DlgInputFormat=Formato
+DlgInputRow=Fila:
+DlgInputCol=Columna:
+DlgInputMode=Modo:
+DlgInputModeDefault=(Por defecto)
+DlgInputModeAlphabetical=Alfabético
+DlgInputModeAlgebraic=Algebraico
+DlgInputModeCheckSyntax=Comprobación de sintáxis
+DlgInputOk=Insertar
+DlgInputCancel=Cancelar
+
+[MatrixDialog]
+
+; *** Texts of matrix dialog box
+
+DlgMatrixTitle=Editor de matrices
+DlgMatrixHeaderTitle=Editor de matrices
+DlgMatrixHeaderDescription=Ingrese los valores de la matriz ó vector. Las celdas en blanco se rellenarán automáticamente con ceros de acuerdo a las dimensiones de la matriz ó vector.
+DlgMatrixWidthDecrease=Ancho
+DlgMatrixWidthDecreaseHint=Disminuir ancho|Disminuye el ancho de las columnas
+DlgMatrixWidthIncrease=Ancho
+DlgMatrixWidthIncreaseHint=Aumentar ancho|Aumenta el ancho de las columnas
+DlgMatrixRowInsert=Fila
+DlgMatrixRowInsertHint=Insertar fila|Insertar una fila en la posición actual
+DlgMatrixRowDelete=Fila
+DlgMatrixRowDeleteHint=Eliminar fila|Elimina la fila actual
+DlgMatrixColInsert=Columna
+DlgMatrixColInsertHint=Insertar columna|Insertar una columna en la posición actual
+DlgMatrixColDelete=Columna
+DlgMatrixColDeleteHint=Eliminar columna|Elimina la columna actual
+DlgMatrixType=Tipo
+DlgMatrixMatrix=Matriz
+DlgMatrixVector=Vector
+DlgMatrixGo=Avance
+DlgMatrixGoToLeft=Hacia la izquierda
+DlgMatrixGoToDown=Hacia abajo
+DlgMatrixOk=Insertar
+DlgMatrixCancel=Cancelar
+
+[PageSetupDialog]
+
+; *** Texts of page setup dialog box
+
+DlgPageSetupTitle=Configurar página
+DlgPageSetupMargins=Márgenes y Opciones
+DlgPageSetupMarginUnits=Unidades:
+DlgPageSetupUnitsMillimeters=Milímetros
+DlgPageSetupUnitsCentimeters=Centímetros
+DlgPageSetupUnitsInches=Pulgadas
+DlgPageSetupUnitsThousandthsOfInches=Milésimas de pulgada
+DlgPageSetupLeftMargin=Margen izquierdo:
+DlgPageSetupRightMargin=Margen derecho:
+DlgPageSetupTopMargin=Margen superior:
+DlgPageSetupBottomMargin=Margen inferior:
+DlgPageSetupGutterMargin=División:
+DlgPageSetupHeaderMargin=Margen del encabezado:
+DlgPageSetupFooterMargin=Margen del Pie de página:
+DlgPageSetupInternalMargin=Margen de la línea:
+DlgPageSetupLeftHFTextIndent=Sangría izquierda del encabezado:
+DlgPageSetupRightHFTextIndent=Sangría derecha del encabezado:
+DlgPageSetupPrintMirrorMargins=Márgenes iguales
+DlgPageSetupPrintLineNumbers=Números de línea
+DlgPageSetupPrintLineNumbersInMargin=Números de línea en la división
+DlgPageSetupPrintHighlight=Resaltado de sintáxis
+DlgPageSetupPrintColors=Usar colores
+DlgPageSetupPrintWrap=Ajustar las líneas
+DlgPageSetupHeaderFooter=Encabezado y Pie de Página
+DlgPageSetupPageNumberHint=Número de página
+DlgPageSetupPagesHint=Número de páginas
+DlgPageSetupTimeHint=Hora
+DlgPageSetupDateHint=Fecha
+DlgPageSetupTitleHint=Título
+DlgPageSetupFontHint=Fuente
+DlgPageSetupBoldHint=Negrita
+DlgPageSetupItalicHint=Cursiva
+DlgPageSetupUnderlineHint=Subrayado
+DlgPageSetupHeaderTitle=Encabezado
+DlgPageSetupHeaderLeft=Izquierda
+DlgPageSetupHeaderCenter=Centro
+DlgPageSetupHeaderRight=Derecha
+DlgPageSetupHeaderAppearance=Apariencia
+DlgPageSetupHeaderLine=Línea
+DlgPageSetupHeaderLineColor=Color:
+DlgPageSetupHeaderBox=Cuadro
+DlgPageSetupHeaderShadow=Sombra
+DlgPageSetupHeaderShadowColor=Color:
+DlgPageSetupHeaderMirror=Posiciones iguales
+DlgPageSetupFooterTitle=Pie de página
+DlgPageSetupFooterLeft=Izquierda
+DlgPageSetupFooterCenter=Centro
+DlgPageSetupFooterRight=Derecha
+DlgPageSetupFooterAppearance=Apariencia
+DlgPageSetupFooterLine=Línea
+DlgPageSetupFooterLineColor=Color:
+DlgPageSetupFooterBox=Cuadro
+DlgPageSetupFooterShadow=Sombra
+DlgPageSetupFooterShadowColor=Color:
+DlgPageSetupFooterMirror=Posiciones iguales
+DlgPageSetupPrinter=Impresora...
+DlgPageSetupOk=Aceptar
+DlgPageSetupCancel=Cancelar
+
+[ParametersDialog]
+
+; *** Texts of parameters dialog box
+
+DlgParamTitle=Parámetros
+DlgParamInput=Ingrese los parámetros para el programa:
+DlgParamOk=Aceptar
+DlgParamCancel=Cancelar
+
+[PreviewDialog]
+
+; *** Texts of preview dialog box
+
+DlgPreviewTitle=HPUserEdit - Vista previa de impresión
+DlgPreviewFirst=Inicio
+DlgPreviewFirstHint=Página inicial|Muestra la página inicial del documento
+DlgPreviewPrev=Anterior
+DlgPreviewPrevHint=Página anterior|Muestra la página anterior del documento
+DlgPreviewNext=Siguiente
+DlgPreviewNextHint=Página siguiente|Muestra la página siguiente del documento
+DlgPreviewLast=Fin
+DlgPreviewLastHint=Páginal final|Muestra la página final del documento
+DlgPreviewZoom=Ampliar/Reducir
+DlgPreviewZoomHint=Ampliar/Reducir|Muestra el documento a escala
+DlgPreviewZoomWholePage=Página completa
+DlgPreviewZoomWholePageHint=Página completa|Muestra el documento ajustado a una página completa
+DlgPreviewZoomPageWidth=Ancho de página
+DlgPreviewZoomPageWidthHint=Ancho de página|Muestra el documento ajustado al ancho de página
+DlgPreviewZoom25=25%
+DlgPreviewZoom25Hint=25%|Muestra el documento ajustado a un 25% de su tamaño real
+DlgPreviewZoom50=50%
+DlgPreviewZomm50Hint=25%|Muestra el documento ajustado a un 50% de su tamaño real
+DlgPreviewZoom100=100%
+DlgPreviewZomm100Hint=25%|Muestra el documento en su tamaño real
+DlgPreviewZoom200=200%
+DlgPreviewZomm200Hint=25%|Muestra el documento ajustado a un 200% de su tamaño real
+DlgPreviewZoom400=400%
+DlgPreviewZomm400Hint=25%|Muestra el documento ajustado a un 400% de su tamaño real
+DlgPreviewPrint=Imprimir
+DlgPreviewPrintHint=Imprimir|Imprime el documento mostrado
+DlgPreviewClose=Cerrar
+DlgPreviewCloseHint=Cerrar|Cierra la ventana de vista previa
+DlgPreviewToolBarTitle=Barra de herramientas
+DlgPreviewToolBarChevronHint=Más botones|
+
+[SearchReplaceDialog]
+
+; *** Texts of search and replace dialog box
+
+DlgSearchTitle=Buscar
+DlgReplaceTitle=Reemplazar
+DlgSearchReplaceSearch=Buscar:
+DlgReplaceReplaceWith=Reemplazar con:
+DlgSearchReplaceOptions=Opciones
+DlgSearchReplaceCaseSensitive=Coincidir mayúsculas y minúsculas
+DlgSearchReplaceWholeWords=Sólo palabras completas
+DlgSearchReplaceFromCursor=Buscar desde el cursor
+DlgSearchReplaceSelectedOnly=Sólo en el bloque seleccionado
+DlgSearchReplaceDirection=Dirección
+DlgSearchReplaceDirectionDown=Abajo
+DlgSearchReplaceDirectionUp=Arriba
+DlgSearchReplaceOk=Buscar
+DlgSearchReplaceCancel=Cancelar
+
+[StatusDialog]
+
+; *** Texts of status dialog box
+
+DlgStatusLabelAs=Como:
+
+[TipDayDialog]
+
+; *** Texts of tip day dialog box
+
+DlgTipDayTitle=Sugerencia del día
+DlgTipDayWelcome=Bienvenido a HPUserEdit 5
+DlgTipDayDescription=Sabías que...
+DlgTipDayShowTip=Mostrar sugerencias al iniciar el programa
+DlgTipDayNext=Siguiente
+DlgTipDayPrevious=Anterior
+DlgTipDayClose=Cerrar
+
+[TransferDialog]
+
+; *** Texts of transfer dialog box
+
+DlgTransferTitle=Enviando...
+DlgTransferFileName=Nombre de archivo:
+DlgTransferObjectName=Nombre de objeto:
+DlgTransferStatus=Estado:
+DlgTransferTransferStatus=Transferencia
+DlgTransferSendPackets=Paquetes enviados:
+
+[Messages]
+
+; *** Text of user messages
+
+Message1=No se ha encontrado el texto requerido
+Message2=El texto en el archivo '%s' a cambiado. ¿Desea guardar las modificaciones?
+Message3=No se puede guardar el archivo
+Message4=¿Desea reemplazar el texto '%s'?
+Message5=El archivo '%s' no existe
+Message6=No se puede importar el objeto gráfico
+Message7=No se puede enviar el objecto al emulador
+Message8=No se puede importar el archivo binario
+Message9=No se puede exportar el objeto a un archivo binario
+Message10=Debe guardar los cambios antes de realizar la transferencia
+Message11=No se puede enviar el archivo a la calculadora
+Message12=No se puede iniciar el emulador EMU48
+Message13=No se puede realizar la transferencia. Por favor verifique la conexión y que la calculadora se encuentre en modo servidor
+
+[Labels]
+
+; *** Text of used labels
+
+Label1=Objeto
+Label2=Lín. %d  Col. %d
+Label3=Insertar
+Label4=Modificado
+Label5=Sobreescribir
+Label6=Página
+Label7=Abrir
+Label8=Guardar como
+Label9=Archivos de HPUserEdit|*.hpe|Todos los archivos|*.*
+Label10=Importar
+Label11=Exportar
+Label12=Archivos de objetos gráficos HP|*.grb|Todos los archivos|*.*
+Label13=Archivos binarios HP|*.hp;*.bin|Todos los archivos|*.*
+Label14=Archivo de
+Label15=Importando...
+Label16=Objeto nuevo
+Label17=Exportando...
+Label18=Completado
+Label19=Error
+Label20=Cancelado
+Label21=Enviando...
+Label22=Conectando...
